@@ -49,7 +49,7 @@ https://user-images.githubusercontent.com/16434638/125178952-7adb0f80-e1e1-11eb-
 ------------
 
   * `git clone https://github.com/HaziqRazali/Multitask-Variational-Autoencoding-of-Human-to-Human-Object-Handover Object-Handover`
-  * Either download the [https://imperialcollegelondon.box.com/s/vwvjzh2u781sui0w3ogpynq8gr4wuzwu](pre-processed data) and put it in your `$HOME/datasets` directory or download the [raw data](https://bridges.monash.edu/articles/dataset/Handover_Orientation_and_Motion_Capture_Dataset/8287799) (60gb) and pre-process it by following the instructions at 
+  * Either download the [preprocessed data](https://imperialcollegelondon.box.com/s/vwvjzh2u781sui0w3ogpynq8gr4wuzwu) and put it in your `$HOME/datasets` directory or download the [raw data](https://bridges.monash.edu/articles/dataset/Handover_Orientation_and_Motion_Capture_Dataset/8287799) (60gb) and pre-process it by following the instructions at 
   * Download the GloVe vector from [https://nlp.stanford.edu/projects/glove/](https://nlp.stanford.edu/projects/glove/) and put it in your `$HOME/datasets` directory. You can download any GloVe vector or even train the model with a one-hot embedding but you will have to set the appropriate `glove_type`, `path_to_glove_file` and model dimensions in the shell script e.g. `shell_scripts/train-glove-vae.sh` or `shell_scripts/train-onehot-vae.sh`.
   * cd into `shell_scripts` then run `./train-glove-vae.sh`
   * The weights will be stored in `Object-Handover/weights`
