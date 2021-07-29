@@ -96,7 +96,7 @@ year = {2021}
 
 ```  
 @online{glove,
-  author = {},
+  author = {Pennington, Jeffrey and Socher, Richard and Manning, Christopher D},
   title = {Pretrained GloVe vectors},
   url = {https://nlp.stanford.edu/projects/glove/}
 }
