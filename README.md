@@ -93,3 +93,11 @@ year = {2021}
   publisher={Springer}
 }
 ```
+
+```  
+@online{glove,
+  author = {},
+  title = {Pretrained GloVe vectors},
+  url = {https://nlp.stanford.edu/projects/glove/}
+}
+```
