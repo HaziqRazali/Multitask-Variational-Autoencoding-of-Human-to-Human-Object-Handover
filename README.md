@@ -67,6 +67,7 @@ https://user-images.githubusercontent.com/16434638/125178952-7adb0f80-e1e1-11eb-
 How to further improve the model
 
   * Use synthetic data to increase number of classes and to limit the variance in object orientations.
+  * Use the object's principal/main axis instead of its x,y,z to simplify the object orientations.
   * Retrain GloVe on a filtered corpus without sentences containing irrelevant words e.g. ski or happy.
 
 # References
